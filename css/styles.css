@@ -1,0 +1,65 @@
+/* Feel free to style me! */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+
+  text-align: right;
+  list-style-type: none;
+  font-family: "Courier New", monospace;
+}
+ul {
+  list-style-type: none;
+}
+
+t {
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+
+  padding: 15px;
+  margin-left: 25px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Brush Script MT", cursive;
+}
+ t:hover {
+    
+  color: rgb(159, 173, 76);
+ 
+
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 12px 12px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    background-position: -99.99% 0;
+  color: rgb(159, 173, 76);
+}
+
+.topnav a.active {
+  background-color: rgb(159, 173, 76);
+  color: rgb(159, 173, 76);
+}
+
+img {
+  border-radius: 50%;
+  float: right;
+  width: 300px;
+  height: 270px;
+  border: 2px solid;
+}
