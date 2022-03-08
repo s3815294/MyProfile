@@ -63,3 +63,47 @@ img {
   height: 270px;
   border: 2px solid;
 }
+
+.img-with-text {
+    width:200px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 1px;
+  float:right;
+}
+.imagetext {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 20px;
+    margin-right: 35px;
+    float: right;
+}
+
+
+
+.name{
+    text-transform: uppercase;
+    font-size: 72px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+    
+}
+
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 500px;
+}
+
+.interests{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+    
+}
