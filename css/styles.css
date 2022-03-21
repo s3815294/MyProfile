@@ -13,7 +13,6 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-
   text-align: right;
   list-style-type: none;
   font-family: "Times New Roman", Times, serif;
@@ -44,7 +43,7 @@ t:hover {
   text-align: center;
   padding: 12px 12px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
@@ -101,7 +100,12 @@ t:hover {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+ 
+
+  
 }
+
+
 
 .y {
   margin-left: 25px;
@@ -131,7 +135,6 @@ t:hover {
 .techskills {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  /* margin-right: 0px; */
   margin-top: -15px;
   margin-left: -30px;
 }
@@ -139,7 +142,6 @@ t:hover {
 .softskills {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  /* margin-right: 0px; */
   margin-top: -15px;
   margin-left: -30px;
 }
@@ -174,4 +176,71 @@ legend {
   margin-right: 35px;
   margin-bottom: 1px;
   float: right;
+}
+
+.jobimg img {
+  width: 400px;
+  height: 200px;
+  border: 2px solid #000;
+}
+
+.jobimagetext {
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 130px;
+  float: right;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #2a2f33;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* width: 100%; */
+  font-size: 20px;
+  /* text-align: right; */
+  /* list-style-type: none; */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.MyProfile {
+  margin: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: left;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+/* } */
+
+.container {
+  display: flex;
+}
+.container > div {
+  flex: 1; /*grow*/
+}
+.test1 img {
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+  border: 2px solid #000;
+}
+
+.test2 img {
+  width: 500px;
+  height: 400px;
+  margin: 25px;
+  border: 2px solid #000;
+}
+.test3 img {
+  width: 400px;
+  height: 400px;
+  margin-left: 65px;
+  margin-top: 25px;
+  border: 2px solid #000;
 }
