@@ -1,2 +1,2 @@
-# COSC1078-BasicTemplate
-COSC1078 - BasicTemplate for student use.
+# My Profile
+COSC1078 - Assignment 1
